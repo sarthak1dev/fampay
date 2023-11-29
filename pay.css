@@ -1,0 +1,72 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+*{
+    background-color: rgb(32, 33, 33);
+    margin:none;
+    
+}
+
+
+
+.primary_panel{
+    width: 800px;
+    height: 250px;
+    background-color: rgb(9, 9, 9);
+    margin-left: 230px;
+    margin-top: 50px;
+    border-radius: 8px;
+    position: relative;
+    top: 150px;
+    
+   
+}
+h4{
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0%;
+    position: relative;
+    top: 60px;
+    left: 25px;
+    background-color: transparent;
+
+}
+input{
+    position: relative;
+    top: 37px;
+    left: 160px;
+    background-color: transparent;
+    color: white;
+}
+input:hover{
+    border: 2px solid white;
+    
+}
+h3{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    position: relative;
+    left: 640px;
+    bottom: 80px;
+    background-color: transparent;
+}
+p{
+    background-color: transparent;
+    color: green;
+    position:relative;
+    left: 710px;
+    bottom: 117px;
+}
+button{
+    background-color: rgb(118, 140, 164);
+    width: 130px;
+    position: relative;
+    left: 645px;
+    height: 30px;
+    border-radius: 7px;
+}
+button:hover{
+    border: 2px solid white;
+    
+}

@@ -1,0 +1,108 @@
+body{
+    background-image: url(world\ map.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+h6{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(15, 15, 15,0.5);
+    width: 500px;
+
+
+}
+input{
+    width: 260px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.left{
+    height: 230px;
+    width: 230px;
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 350px;
+}
+
+.right{
+    position: relative;
+    left: 630px;
+    bottom: 160px;
+    height: 100px;
+    width: 100px;
+
+}
+#msg{
+    height: 135px;
+}
+button{
+    height: 30px;
+    position: relative;
+    bottom: 70px;
+}
+/* sidebar>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.sidebar{
+    position: fixed;
+    background-color:rgba(255, 255, 255, 0.0025);
+    height:100%;
+    width: 50px;
+    margin: none;
+    top: 0px;
+    left: 0px;
+    align-items: space-evenly;
+    backdrop-filter: blur(17px);
+    --webkit-backdrop-filter: blur(17px);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}.sidebar-after{
+    position: fixed;
+    background-color:rgba(255, 255, 255, 0.0025);
+    height:100%;
+    width: 250px;
+    margin: none;
+    top: 0px;
+    left: 0px;
+    align-items: space-evenly;
+    backdrop-filter: blur(17px);
+    --webkit-backdrop-filter: blur(17px);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.material-symbols-outlined{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: transparent;
+    margin-left: 13px;
+}
+.material-symbols-outlined-after{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: transparent;
+    margin-left: 25px;
+}
+.links{
+    padding-left: 0%;
+    list-style: none;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.links li{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: transparent;
+}
+.atag{
+   display: none;
+}
+.atag-after{
+    color: #dac7c7;
+    background-color:transparent;
+    padding: 0%;
+    width: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25px;
+    text-decoration: none;
+}
+

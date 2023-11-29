@@ -1,0 +1,14 @@
+ <input type="button" class="google_signin border"></div>
+
+
+
+.google_signin{
+   
+    height: 28px;
+    width: 210px; 
+    background-color: rgb(19, 83, 139);
+    border-radius: 5px;
+    margin-top: 10px;   
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
